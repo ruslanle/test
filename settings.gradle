@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':floating-icon-library'
+project(':floating-icon-library').projectDir = new File('library/floating-icon-library')
